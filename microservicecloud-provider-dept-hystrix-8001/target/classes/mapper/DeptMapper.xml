@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neoway.springcloud.mapper.DeptMapper">
+
+    <select id="findById" resultType="com.neoway.springcloud.model.Dept" >
+        SELECT dept_num as deptNum,
+               dept_name as deptName,
+               db_source as dbSource
+        FROM dept
+        WHERE dept_num = #{id}
+    </select>
+
+</mapper>
