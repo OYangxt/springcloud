@@ -76,6 +76,7 @@
         <module>microservice-cloud-eureka-7001</module>
         <module>microservice-cloud-eureka-7002</module>
         <module>microservice-cloud-eureka-7003</module>
+        <module>microservicecloud-consumer-dept-feign</module>
 
     </modules>
     <build>

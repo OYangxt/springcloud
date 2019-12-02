@@ -1,1 +1,2 @@
 com\neoway\springcloud\model\Dept.class
+com\neoway\springcloud\service\DeptClientFeign.class
