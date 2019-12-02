@@ -1,7 +1,7 @@
 package com.neoway.springcloud.controller;
 
 import com.neoway.springcloud.model.Dept;
-import com.neoway.springcloud.service.DeptClientFeign;
+import com.neoway.springcloud.service.DeptClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ import java.util.List;
 public class DeptConsumerController {
 
     @Autowired
-    private DeptClientFeign deptClientFeign;
+    private DeptClientService deptClientFeign;
 
 
     @RequestMapping(value ="/consumer/dept/get/{id}")

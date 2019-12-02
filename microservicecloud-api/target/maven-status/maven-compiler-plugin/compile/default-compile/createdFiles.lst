@@ -1,2 +1,4 @@
 com\neoway\springcloud\model\Dept.class
-com\neoway\springcloud\service\DeptClientFeign.class
+com\neoway\springcloud\service\impl\DeptClientFallbackFactroy.class
+com\neoway\springcloud\service\DeptClientService.class
+com\neoway\springcloud\service\impl\DeptClientFallbackFactroy$1.class
