@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/microservice-cloud-eureka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-cloud-eureka-7003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" charset="UTF-8" />
