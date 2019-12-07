@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5426016e-e6cd-42ab-8f90-1ddc116fee65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microserviecloud-config-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microserviecloud-config-3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microserviecloud-config-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microserviecloud-config-3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/" />
@@ -117,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="156">
+              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -359,7 +354,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575426004986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575426966965" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -393,7 +388,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.27820712" />
+    <option name="contentProportion" value="0.19165379" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -507,13 +502,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78306000" />
+    <option name="totallyTimeSpent" value="79282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7813559" visible="true" weight="0.27836612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7813559" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" sideWeight="0.21864407" side_tool="true" weight="0.27836612" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,7 +531,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49848714" visible="true" weight="0.43225807" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49848714" visible="true" weight="0.43225807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -981,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="156">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
