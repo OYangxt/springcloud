@@ -82,6 +82,7 @@
         <module>microservicecloud-zuul-gateway-9527</module>
         <module>microserviecloud-config-3344</module>
         <module>microservicecloud-config-client-3355</module>
+        <module>microservicecloud-file-upload</module>
 
     </modules>
     <build>
