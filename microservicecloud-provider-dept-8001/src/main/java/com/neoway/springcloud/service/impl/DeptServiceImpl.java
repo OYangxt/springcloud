@@ -1,5 +1,7 @@
 package com.neoway.springcloud.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.neoway.springcloud.mapper.DeptMapper;
 import com.neoway.springcloud.model.Dept;
 import com.neoway.springcloud.service.DeptService;
@@ -32,7 +34,12 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    public List<Dept> findAll() {
-        return deptMapper.findAll();
+    public PageInfo<Dept> findAll(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum,pageSize);
+
+        List<Dept> depts = deptMapper.findAll();
+        PageInfo<Dept> pageInfo = new PageInfo<>(depts);
+
+        return pageInfo;
     }
 }

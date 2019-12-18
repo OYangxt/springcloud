@@ -1,5 +1,6 @@
 package com.neoway.springcloud.service;
 
+import com.github.pagehelper.PageInfo;
 import com.neoway.springcloud.model.Dept;
 
 import java.util.List;
@@ -26,5 +27,5 @@ public interface DeptService {
      * 查询所有部门
      * @return
      */
-    List<Dept> findAll();
+    PageInfo<Dept> findAll(int pageNum, int pageSize);
 }

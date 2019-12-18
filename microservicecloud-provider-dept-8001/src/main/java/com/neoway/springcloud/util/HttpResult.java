@@ -40,16 +40,75 @@ public class HttpResult<T> implements Serializable {
         this.data = data;
     }
 
+    /**
+     * 返回成功响应
+     * @param <T> 泛型结果
+     * @return
+     */
     public static <T> HttpResult<T> returnSuccess() {
         return new HttpResult<>(null);
     }
 
+    /**
+     * 返回成功响应，自定义响应体
+     * @param data 返回数据
+     * @param <T> 泛型结果
+     * @return
+     */
     public static <T> HttpResult<T> returnSuccess(T data) {
         return new HttpResult<>(data);
     }
 
+    /**
+     * 返回成功响应，自定义描述信息
+     * @param message 描述信息
+     * @param data 返回数据
+     * @param <T> 泛型结果
+     * @return
+     */
     public static <T> HttpResult<T> returnSuccess(String message, T data) {
         return new HttpResult<>(ResponseCode.success.code,message,data);
+    }
+
+    /**
+     * 返回失败响应
+     * @param <T> 泛型结果
+     * @return
+     */
+    public static <T> HttpResult<T> returnFail() {
+        return new HttpResult<>(ResponseCode.fail,null);
+    }
+
+    /**
+     * 返回失败响应，自定义响应体
+     * @param responseCode 响应码
+     * @param data 返回数据
+     * @param <T> 泛型结果
+     * @return
+     */
+    public static <T> HttpResult<T> returnFail(ResponseCode responseCode, T data) {
+        return new HttpResult<>(responseCode,data);
+    }
+
+    /**
+     * 返回失败响应，自定义描述信息和data
+     * @param message  描述信息
+     * @param data 返回数据
+     * @param <T>  泛型结果
+     * @return
+     */
+    public static <T> HttpResult<T> returnFail(String message, T data) {
+        return new HttpResult<>(ResponseCode.fail.code,message,data);
+    }
+
+    /**
+     * 返回失败响应，自定义描述信息
+     * @param message 描述信息
+     * @param <T> 泛型结果
+     * @return
+     */
+    public static <T> HttpResult<T> returnFail(String message) {
+        return returnFail(message,null);
     }
 
 

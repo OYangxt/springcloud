@@ -1,19 +1,16 @@
 package com.neoway.springcloud.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.neoway.springcloud.model.Dept;
 import com.neoway.springcloud.service.DeptService;
+import com.neoway.springcloud.util.HttpResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
-import java.net.URI;
 import java.util.List;
 
 /**
@@ -22,6 +19,7 @@ import java.util.List;
  */
 @RestController
 @Api(tags = "部门信息查询", description = "部门信息查询")
+@Slf4j
 public class DeptController {
     @Autowired
     private DeptService deptService;
@@ -37,14 +35,27 @@ public class DeptController {
     @ApiOperation("根据Id查询部门信息")
     @ApiImplicitParam(name = "id", value = "部门的id", required = true, dataType = "long")
     @GetMapping("/dept/get/{id}")
-    public Dept get(@PathVariable("id") Long id){
-        return deptService.findById(id);
+    public HttpResult get(@PathVariable("id") Long id){
+        if (id == null || id <= 0) {
+            return HttpResult.returnFail("参数传递错误");
+        }
+
+        try {
+            Dept dept=  deptService.findById(id);
+            return HttpResult.returnSuccess(dept);
+        }catch (Exception e) {
+            log.info("部门信息查询失败！");
+            return HttpResult.returnFail("部门信息查询失败！");
+        }
+
+
     }
 
     @ApiOperation("查询所有部门信息")
     @GetMapping("/dept/list")
-    public List<Dept> list(){
-        return deptService.findAll();
+    public HttpResult list(@RequestParam(value = "pageNum") int pageNum, @RequestParam(value = "pageSize") int pageSize){
+        PageInfo<Dept> deptPageInfo = deptService.findAll(pageNum, pageSize);
+        return HttpResult.returnSuccess(deptPageInfo);
     }
 
 }

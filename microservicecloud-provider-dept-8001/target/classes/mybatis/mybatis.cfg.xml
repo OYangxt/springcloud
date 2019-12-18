@@ -7,4 +7,5 @@
 
         <setting name="cacheEnabled" value="true"/>
     </settings>
+
 </configuration>
