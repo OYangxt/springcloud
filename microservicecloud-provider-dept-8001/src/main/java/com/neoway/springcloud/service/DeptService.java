@@ -21,7 +21,7 @@ public interface DeptService {
      * @param id 待查询部门id
      * @return 部门对象
      */
-    Dept findById(Long id);
+    Dept findById(String id);
 
     /**
      * 查询所有部门

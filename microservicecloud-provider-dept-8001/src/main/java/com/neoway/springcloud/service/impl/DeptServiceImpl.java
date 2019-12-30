@@ -4,14 +4,19 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.neoway.springcloud.mapper.DeptMapper;
 import com.neoway.springcloud.model.Dept;
+import com.neoway.springcloud.redis.DeptInfoRedisDao;
 import com.neoway.springcloud.service.DeptService;
+import jdk.nashorn.internal.parser.JSONParser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -24,8 +29,9 @@ public class DeptServiceImpl implements DeptService {
     @Autowired
     private DeptMapper deptMapper;
 
+
     @Autowired
-    private RedisTemplate redisTemplate;
+    private DeptInfoRedisDao deptInfoRedisDao;
 
     @Override
     public boolean addDept(Dept dept) {
@@ -37,19 +43,30 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    public Dept findById(Long id) {
+    public Dept findById(String id) {
         Dept dept;
-        String key = "dept_" + id;
 
-        ValueOperations<String, Dept> ops = redisTemplate.opsForValue();
-        if (redisTemplate.hasKey(key)) {
-            dept = ops.get(key);
-            log.info("从Redis缓存中取出了部门信息....{}",dept);
+        Map<String, String> deptMap = deptInfoRedisDao.findDeptInfo(id);
+
+        if (!CollectionUtils.isEmpty(deptMap)) {
+
+            dept = new Dept();
+
+            dept.setDeptNum(Long.parseLong(deptMap.get("deptId")));
+            dept.setDeptName(deptMap.get("deptName"));
+            dept.setDbSource(deptMap.get("dbSource"));
+            log.info("从Redis缓存中取出了部门信息....{}",deptMap);
+
             return dept;
         }
 
+
         dept = deptMapper.findById(id);
-        ops.set(key, dept, 15, TimeUnit.MINUTES);
+        Map<String, String> newDeptMap = new HashMap<>(3);
+        newDeptMap.put("deptId",String.valueOf(dept.getDeptNum()));
+        newDeptMap.put("deptName", dept.getDeptName());
+        newDeptMap.put("dbSource",dept.getDbSource());
+        deptInfoRedisDao.updateDeptInfo(id, newDeptMap);
         log.info("将部门信息存入Redis数据库中...{}",dept);
         return dept;
     }
