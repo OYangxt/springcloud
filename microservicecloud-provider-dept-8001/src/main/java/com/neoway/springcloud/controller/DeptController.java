@@ -33,7 +33,7 @@ public class DeptController {
     @ApiOperation("根据Id查询部门信息")
     @ApiImplicitParam(name = "id", value = "部门的id", required = true, dataType = "long")
     @GetMapping("/dept/get/{id}")
-    public HttpResult get(@PathVariable("id") String id){
+    public HttpResult get(@PathVariable(value = "id") String id){
       //@PathVariable注解标识的参数，会拼接到URL中，此处无需判断参数传递；
         try {
             Dept dept=  deptService.findById(id);

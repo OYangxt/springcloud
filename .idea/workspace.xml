@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5426016e-e6cd-42ab-8f90-1ddc116fee65" name="Default Changelist" comment="修改Redis缓存">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/neoway/springcloud/service/impl/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/classes/com/neoway/springcloud/service/impl/DeptServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud-consumer-dept-80/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8001/target/" />
@@ -63,42 +65,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/com/neoway/springcloud/controller/ConfigClientConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microserviecloud-config-3344/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/logback/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="83" column="25" selection-start-line="80" selection-start-column="12" selection-end-line="83" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -117,27 +121,6 @@
               <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/DeptProvider8001Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/neoway/springcloud/service/impl/DeptClientFallbackFactroy.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/neoway/springcloud/service/DeptClientService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/neoway/springcloud/DeptConsumer80ApplicationFeign.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.properties" />
@@ -201,12 +182,10 @@
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/config/RedisConfig.fxml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/mapper/DeptMapper.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/service/DeptService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/redis/DeptInfoRedisDao.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/redis/impl/DeptInfoRedisDaoImpl.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/test/java/com/oyxt/example/mode/StudentA.java" />
@@ -214,6 +193,10 @@
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/test/java/com/oyxt/example/mode/Student.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/test/java/com/oyxt/example/test/HutoolTest.java" />
         <option value="$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/logback/logback-spring.xml" />
       </list>
     </option>
   </component>
@@ -226,26 +209,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-config-client-3355" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-config-client-3355" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-provider-dept-8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservicecloud-provider-dept-8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -300,6 +264,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="462c0819:PsiDirectoryNode" />
+              <item name="{log.path}" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -317,7 +286,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578464710900" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578472128687" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -328,6 +297,10 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20190712713\Desktop\microservicecloud\microservicecloud-provider-dept-8001\src\main\resources\logback" />
+      <recent name="C:\Users\20190712713\Desktop\microservicecloud\microservicecloud-provider-dept-8001\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\20190712713\Desktop\microservicecloud\microserviecloud-config-3344\src\main\resources" />
       <recent name="C:\Users\20190712713\Desktop\microservicecloud\microservicecloud-provider-dept-hystrix-8001\src\main\resources\mapper" />
@@ -354,7 +327,7 @@
     </option>
     <option name="contentProportion" value="0.2527048" />
   </component>
-  <component name="RunManager" selected="JUnit.HutoolTest.beanUtilTest">
+  <component name="RunManager" selected="Spring Boot.EurekaServer7001Application">
     <configuration name="HutoolTest.beanUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-provider-dept-hystrix-8001" />
       <extension name="coverage">
@@ -433,9 +406,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HutoolTest.beanUtilTest" />
         <item itemvalue="Spring Boot.DeptProvider8001Application" />
         <item itemvalue="Spring Boot.EurekaServer7001Application" />
+        <item itemvalue="JUnit.HutoolTest.beanUtilTest" />
         <item itemvalue="Spring Boot.ZuulApplication9527" />
         <item itemvalue="Spring Boot.FileUploadApplication8050" />
       </list>
@@ -459,7 +432,7 @@
       <workItem from="1574214041500" duration="25520000" />
       <workItem from="1576635042600" duration="25874000" />
       <workItem from="1577784007567" duration="807000" />
-      <workItem from="1578098614116" duration="4111000" />
+      <workItem from="1578098614116" duration="11442000" />
     </task>
     <task id="LOCAL-00001" summary="修改Redis缓存">
       <created>1577706930759</created>
@@ -483,13 +456,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142562000" />
+    <option name="totallyTimeSpent" value="149893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7813559" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7813559" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" sideWeight="0.21864407" side_tool="true" weight="0.27836612" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -499,7 +472,7 @@
       <window_info id="Web" order="7" sideWeight="0.50119907" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32419354" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.55" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,7 +485,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.16290322" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49848714" weight="0.117741935" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49848714" visible="true" weight="0.4016129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -543,26 +516,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改Redis缓存" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/neoway/springcloud/controller/DeptConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/com/neoway/springcloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -795,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/mapper/DeptMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -852,14 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -950,12 +885,42 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/logback/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="83" column="25" selection-start-line="80" selection-start-column="12" selection-end-line="83" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/neoway/springcloud/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{log.path}/dept_provider-2020-01-08-error.0.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{log.path}/dept_provider-2020-01-08-0.log">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/logback/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
