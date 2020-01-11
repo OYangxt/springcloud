@@ -1,6 +1,7 @@
 package com.neoway.springcloud.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author 20190712713
  * @date 2019/12/4 9:05
  */
+@RefreshScope
 @RestController
 public class ConfigClientConfig {
 

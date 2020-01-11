@@ -1,3 +1,6 @@
 spring:
   application:
     name: microservicecloud-config-client
+management:
+  security:
+    enabled: false
